@@ -10,17 +10,19 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Agraj Naman Mishra',
+  subtitle: 'Full Stack Developer',
+  cta: 'Know More about me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I am working as a fresher software professional. Completed my B.Tech from VIT Chennai in May,2020. ',
+  paragraphTwo:
+    'I was introduced with CRM and its indulgement to the full stack ways that I was already interested in, this happened in Capgemini Pune during my Internship. So I am looking my future as a Developer in the same.',
+  paragraphThree: 'I also do freelancing as full stack developer.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
