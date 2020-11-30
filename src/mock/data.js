@@ -31,27 +31,31 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Order Managing application',
+    info:
+      'This is the first major project which I did using all of my learning in salesforce ecosystem.',
+    info2:
+      'Provided with 30+ client scenario and was expected to come up with a working and fully automated application.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Truck Booking System',
+    info:
+      'This is the 2nd project that I did with client scenario. Fully functional and automated application on salesforce CRM.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Emotion Detection And Drownsiness Detector',
+    info: 'The project was intended to help the road accidents and in cases of autism. ',
+    info2:
+      'The produced model was a software system that detects the face and returns the facial expression on basis of distances between the eyelids , lips etc. We did it for smile, sad , surprised etc.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -70,27 +74,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/ANM1862',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/agrajnaman',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/D3adShoT',
+    },
+    {
+      id: nanoid(),
+      name: 'Instagram',
+      url: 'https://www.linkedin.com/in/agrajnaman',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
