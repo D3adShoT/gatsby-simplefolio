@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'I was introduced with CRM and its indulgement to the full stack ways that I was already interested in, this happened in Capgemini Pune during my Internship. So I am looking my future as a Developer in the same.',
   paragraphThree: 'I also do freelancing as full stack developer.',
-  resume: 'https://drive.google.com/file/d/1kkC-mrpcGuRhpvW3wAeQ-R1H6sAS6CN4/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://bit.ly/37mniZv', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
