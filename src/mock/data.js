@@ -57,7 +57,7 @@ export const projectsData = [
     info2:
       'The produced model was a software system that detects the face and returns the facial expression on basis of distances between the eyelids , lips etc. We did it for smile, sad , surprised etc.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -65,7 +65,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'agrajnaman1@gmail.com',
 };
 
 // FOOTER DATA

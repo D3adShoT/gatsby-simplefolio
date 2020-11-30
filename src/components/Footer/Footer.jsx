@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
@@ -26,7 +27,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || 'https://github.com/D3adShoT/'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -38,9 +39,9 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          © {new Date().getFullYear()} - Professional Portfolio Developed by {' '}
+          <a href="https://github.com/D3adShoT/" target="_blank" rel="noopener noreferrer">
+            Agraj Mishra
           </a>
         </p>
 
