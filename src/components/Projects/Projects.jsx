@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable spaced-comment */
+/* eslint-disable prettier/prettier */
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
@@ -28,8 +31,8 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
-
+            // const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, img, id } = project;
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -49,7 +52,7 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {/*<a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
@@ -67,7 +70,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      )}
+                      )} */}
                     </div>
                   </Fade>
                 </Col>
