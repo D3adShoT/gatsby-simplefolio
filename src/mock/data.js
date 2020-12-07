@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Order Managing application.png',
     title: 'Order Managing application',
     info:
       'This is the first major project which I did using all of my learning in salesforce ecosystem.',
@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Truck Booking System.jpg',
     title: 'Truck Booking System',
     info:
       'This is the 2nd project that I did with client scenario. Fully functional and automated application on salesforce CRM.',
@@ -51,7 +51,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Emotion Detection And Drownsiness Detector.jpg',
     title: 'Emotion Detection And Drownsiness Detector',
     info: 'The project was intended to help the road accidents and in cases of autism. ',
     info2:
