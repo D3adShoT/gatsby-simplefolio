@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Agraj Naman Mishra | Software Developer', // e.g: 'Name | Developer'
+  title: 'Agraj Naman Mishra | Salesforce Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Agraj Naman Mishra',
-  subtitle: 'I am a Software Engineer',
+  subtitle: 'I am a Salesforce Developer',
   cta: 'Know More about me',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am working as a fresher software professional. Completed my B.Tech from VIT Chennai in May,2020. ',
+    'I am working as a Software Professional. Completed my B.Tech from VIT Chennai in May,2020. ',
   paragraphTwo:
     'I was introduced with CRM and its indulgement to the full stack ways that I was already interested in, this happened in Capgemini Pune during my Internship. So I am looking my future as a Developer in the same.',
   paragraphThree: 'I also do freelancing as full stack developer.',
